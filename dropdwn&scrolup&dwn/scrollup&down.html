@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>scroll down and up</title>
+</head>
+<body>
+    <head>
+        <script>
+          function pageUp() {
+            window.scrollTo(0,0);
+          }
+    
+          function pageDown() {
+            window.scrollTo(0,document.body.scrollHeight);
+          }
+        </script>
+      </head>
+      <body>
+        <button onclick="pageUp()">Page Up</button>
+        <button onclick="pageDown()">Page Down</button>
+      </body>
+</body>
+</html>
