@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        p:first-child{
+            background-color:orange;
+        }
+        p::selection{
+            background-color: lightcoral;
+        }
+        p::first-letter{
+            font-size: x-large;
+        }
+        p::first-line{
+            background-color: green;
+        }
+        p::after{
+            content:"****";
+        }
+        p::before{
+            content:"****";
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aspernatur, corrupti
+             laboriosam qui autem, perspiciatis quaerat dolore a commodi eligendi repudiandae, id 
+             doloremque beatae. Eos accusantium velit ex earum porro?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aspernatur, corrupti
+             laboriosam qui autem, perspiciatis quaerat dolore a commodi eligendi repudiandae, id 
+             doloremque beatae. Eos accusantium velit ex earum porro?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aspernatur, corrupti
+             laboriosam qui autem, perspiciatis quaerat dolore a commodi eligendi repudiandae, id 
+             doloremque beatae. Eos accusantium velit ex earum porro?
+        </p>
+    </div>
+</body>
+</html>
